@@ -90,8 +90,8 @@ namespace UnityChan
 				velocity *= backwardSpeed;	// 移動速度を掛ける
 			}
 		
-			if (Input.GetButtonDown ("Jump")) {	// スペースキーを入力したら
-
+			if (Input.GetButtonDown ("Jump")) { // スペースキーを入力したら
+				Debug.Log("押してる");
 				//アニメーションのステートがLocomotionの最中のみジャンプできる
 				if (currentBaseState.fullPathHash == locoState) {
 					//ステート遷移中でなかったらジャンプできる
