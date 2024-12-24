@@ -7,6 +7,7 @@ TagManager:
   - CinemachineTarget
   - apple
   - gool
+  - SpikeBall
   layers:
   - Default
   - TransparentFX
